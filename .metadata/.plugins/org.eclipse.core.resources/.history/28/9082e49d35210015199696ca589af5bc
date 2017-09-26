@@ -1,0 +1,15 @@
+package ru.company.portal.users.start;
+
+import ru.company.portal.users.modernman.Human;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Human oldhuman = new Human("nokia");
+		//h.setName("Вася");
+		//h.setHeight(4);
+		oldhuman.call();
+		
+    }
+}
+	

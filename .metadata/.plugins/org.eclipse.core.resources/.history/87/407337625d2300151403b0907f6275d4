@@ -1,0 +1,27 @@
+package webcybern;
+
+public class Main {
+	public static void print(String str) {System.out.println(str);}
+	
+public static void main(String args[]) {
+	
+	
+
+	int i = 1;
+	do {
+	  
+	    print(i + " ");  i++;
+	} while (i < 5);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}}

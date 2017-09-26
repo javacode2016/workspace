@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appcompat_v7/android-support-v7-appcompat.iml" filepath="$PROJECT_DIR$/appcompat_v7/android-support-v7-appcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boobs/boobs.iml" filepath="$PROJECT_DIR$/boobs/boobs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cybern/cybern.iml" filepath="$PROJECT_DIR$/cybern/cybern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcybern/webcybern.iml" filepath="$PROJECT_DIR$/webcybern/webcybern.iml" />
+    </modules>
+  </component>
+</project>

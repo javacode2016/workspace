@@ -1,0 +1,32 @@
+package webcybern;
+
+public class Main {
+	public static void print(String str) {System.out.println(str);}
+	
+	static String text = "Now is the tifne\n" +
+                     "for all good men\n" +
+                     "to come to the aid\n" +
+                     "of their country\n"+
+                     "and pay their due taxes\n";
+static int len = text.length();
+
+public static void main(String args[]) {
+
+boolean inWord = false;
+int numChars = 0;//буквы
+int numWords = 0;//слова
+int numLines = 0;//строки
+
+for (int i=0; i < len; i++) { //запускаем цикл
+     char c = text.charAt(i);//записывает в строку С символы с текста
+     numChars++;
+     switch (c) {//проверки с
+             case '\n': numLines++; // FALLSTHROUGH
+             case '\t': // FALLSTHROUGH
+             case ' ' : if (inWord) { numWords++; inWord = false;}  break;//после пробела прерывается с инкризом
+             default: inWord = true;
+                }
+     }
+print("\n строк " + numLines +"\n слов " + numWords + "\n букв " + numChars +" \n оборот цикла "+len+"\n");
+
+}}
